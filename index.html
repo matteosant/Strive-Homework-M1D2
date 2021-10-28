@@ -2,19 +2,55 @@
 <html lang="en-US">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/normalize.min.css" rel="normalize">
+  <link href="styles/all.css" rel="font-awesome">
   <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
   <meta name="author" content="Matteo Santini">
   <meta name="description" content="Short presentation of Matteo Santini, student at Strive School">
-  <meta charset="utf-8">
-  <title>Who is Matteo Santini</title>
+  <meta charset="UTF-8">
+  <title>Matteo Santini portfolio website</title>
 </head>
 
 <body>
-  <h1>Hey, I am Matteo Santini</h1>
+  <header> 
+  <div class="logo" alt=""> <!--put the logo here-->
+  </div>  
+
+ <button class="nav-toggle" aria-label="toggle-navigation">
+  <span class="hamburger"> </span>
+</button>
+
+<nav class="nav"> 
+<ul class="nav__list">
+  <li class="nav__item"> <a href="#Home" class="nav__link">Home</a> </li>
+  <li class="nav__item"> <a href="#Services" class="nav__link">About Me</a> </li>
+  <li class="nav__item"> <a href="#" class="nav__link">My Services</a> </li>
+  <li class="nav__item"> <a href="#" class="nav__link">My Work</a> </li>
+
+</ul>
+</nav>
+ </header>
+
+ 
+ <!--intruduction-->
+
+ <section class="intro" id="Home">
+
+  <h1 class="sectio__title section__title--intro">Hey, I am Matteo Santini</h1>
+  
+  <p class="section__subtitle section__subtitle--intro">Front-end Dev </p>
   <img src="images/photo_MatteoSantini.jpg" alt="photo of Matteo Santini">
 
-  <h2>My Hobbies and Interests</h2>
+</section>
+
+ <!--My services-->
+
+ <section class="my-services" id="services">
+
+  <h2 class="section__title section__title--services">What I do</h2>
+
   <ul>
     <li>Videogames</li>
     <li>Movies and tv&sol;web&hyphen;series</li>
